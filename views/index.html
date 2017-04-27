@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Size Microservice</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            
+            h1 {
+                font-weight: bold;
+            }
+            div strong {
+                color: indianred;
+            }
+            code{
+                background: lightsteelgrey;
+            }
+            code a {
+                text-decoration: none;
+                color: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Please choose a file to view its size</h2>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="fileInput"></input>
+            <input type="submit"></input>
+        </form>
+    </body>
